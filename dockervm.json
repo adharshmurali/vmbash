@@ -230,7 +230,7 @@
           "fileUris":[
             "https://raw.githubusercontent.com/adharshmurali/vmbash/master/config.sh"
           ],
-          "commandToExecute" : "sh config.sh"
+          "commandToExecute" : "[concat('Shellscript -ExecutionPolicy Unrestricted -File \"' , 'config.sh')]"
         }
 
       }
