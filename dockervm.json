@@ -227,10 +227,8 @@
         "typeHandlerVersion" : "1.8",
         "autoUpgradeMinorVersion": true,
         "settings": {
-          "fileUris":[
-            "https://raw.githubusercontent.com/adharshmurali/vmbash/master/config.sh"
-          ],
-          "commandToExecute" : "[concat('Shellscript -ExecutionPolicy Unrestricted -File \"' , 'config.sh')]"
+         "script": "c3VkbyBhcHQgdXBkYXRlDQpzdWRvIHNuYXAgaW5zdGFsbCAteSBkb2NrZXINCnN1ZG8gYXB0IGluc3RhbGwgLXkgcHl0aG9uMy1waXANCnN1ZG8gYXB0IGluc3RhbGwgLXkgbWF2ZW4NCnN1ZG8gYXB0IGluc3RhbGwgLXkgZ3JhZGxl"
+
         }
 
       }
