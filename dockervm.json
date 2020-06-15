@@ -224,11 +224,11 @@
       "properties":{
         "publisher": "Microsoft.Compute",
         "type": "CustomScriptExtension",
-        "typeHandlerVersion" : "1.8",
+        "typeHandlerVersion" : "2.0",
         "autoUpgradeMinorVersion": true,
         "settings": {
-         "script": "c3VkbyBhcHQgdXBkYXRlDQpzdWRvIHNuYXAgaW5zdGFsbCAteSBkb2NrZXINCnN1ZG8gYXB0IGluc3RhbGwgLXkgcHl0aG9uMy1waXANCnN1ZG8gYXB0IGluc3RhbGwgLXkgbWF2ZW4NCnN1ZG8gYXB0IGluc3RhbGwgLXkgZ3JhZGxl"
-
+          "file-uri": "https://raw.githubusercontent.com/adharshmurali/vmbash/master/config.sh"
+         "commandToExecute": "./config.sh"
         }
 
       }
