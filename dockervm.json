@@ -227,7 +227,7 @@
         "typeHandlerVersion" : "2.0",
         "autoUpgradeMinorVersion": true,
         "settings": {
-          "file-uri": ["https://raw.githubusercontent.com/adharshmurali/vmbash/master/config.sh"],
+          "fileUris": ["https://raw.githubusercontent.com/adharshmurali/vmbash/master/config.sh"],
           "commandToExecute": "./config.sh"
         }
 
